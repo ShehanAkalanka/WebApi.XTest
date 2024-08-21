@@ -1,0 +1,94 @@
+﻿# .NET Core
+bin/
+obj/
+out/
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Code coverage
+coverage/
+*.opencover.*
+*.cobertura.xml
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/packages/
+.nuget/repository/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Backup & temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# NPM packages
+node_modules/
+
+# LibMan
+libman.json
+wwwroot/lib/
+
+# Publish output
+publish/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+*.db
+*.db-wal
+*.db-shm
+desktop.ini
+Thumbs.db
+
+# Ignore sensitive settings
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
